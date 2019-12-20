@@ -7,7 +7,7 @@
     <stages>
       <li>
         <label></label>
-        <painFactor>-300</painFactor>
+        <painFactor>-50</painFactor>
         <socialFightChanceFactor>1.5</socialFightChanceFactor>
           <capMods>
 
