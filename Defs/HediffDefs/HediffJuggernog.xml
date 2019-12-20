@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef>
+    <defName>HediffJuggernog</defName>
+
+    <label>Juggernog</label>
+    <stages>
+      <li>
+        <label></label>
+        <painFactor>-300</painFactor>
+        <socialFightChanceFactor>1.5</socialFightChanceFactor>
+          <capMods>
+
+          </capMods>
+        </li>
+    </stages>
+    <defaultLabelColor>(0.75, 0.75, 1.0)</defaultLabelColor>
+    <comps>
+      <!-- Disappears after eight to nine hours -->
+      <li Class="HediffCompProperties_Disappears">
+
+	<disappearsAfterTicks>
+	  <min>200</min>
+	  <max>225</max>
+	</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>
