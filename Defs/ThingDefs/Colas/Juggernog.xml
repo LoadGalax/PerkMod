@@ -12,7 +12,8 @@
     </graphicData>
     <rotatable>false</rotatable>
     <statBases>
-      <WorkToMake>500</WorkToMake>
+        <Mass>1</Mass>
+      <WorkToMake>5</WorkToMake>
       <MarketValue>30</MarketValue>
     </statBases>
     <techLevel>Industrial</techLevel>
@@ -30,14 +31,13 @@
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-      <researchPrerequisite>DrugProduction</researchPrerequisite>
-      <recipeUsers>
-        <li>DrugLab</li>
-      </recipeUsers>
-    </recipeMaker>
-    <costList>
-      <Neutroamine>2</Neutroamine>
-    </costList>
+         <recipeUsers>
+           <li>ColaMachine</li>
+         </recipeUsers>
+       </recipeMaker>
+       <costList>
+         <Silver>10</Silver>
+       </costList>
     <comps>
       <li Class="CompProperties_Drug">
         <addictiveness>0</addictiveness>

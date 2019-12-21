@@ -2,7 +2,7 @@
 <Defs>
 
   <RecipeDef>
-    <defName>Make_SpeedCola</defName>
+    <defName>MakeSpeedCola</defName>
     <label>Make A SpeedCola</label>
     <description>Make SpeedCola.</description>
     <jobString>Making SpeedCola.</jobString>
@@ -39,7 +39,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>Make_Juggernog</defName>
+    <defName>MakeJuggernog</defName>
     <label>Make A Juggernog</label>
     <description>Make Juggernog.</description>
     <jobString>Making Juggernog.</jobString>

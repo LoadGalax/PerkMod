@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>QuickRevive</defName>
+    <label>QuickRevive</label>
+    <description>QuickRevive.</description>
+    <graphicData>
+      <texPath>Things/Colas/QuickRevive</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+        <drawSize>(0.5,1)</drawSize>
+    </graphicData>
+
+    <rotatable>false</rotatable>
+    <statBases>
+      <Mass>1</Mass>
+      <WorkToMake>5</WorkToMake>
+      <MarketValue>30</MarketValue>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <comps>
+        <li Class="CompProperties_Usable">
+          <useJob>UseItem</useJob>
+          <useLabel>Use QuickRevive</useLabel>
+          <useDuration>0</useDuration>
+        </li>
+        <li Class="CompProperties_Targetable">
+          <compClass>CompTargetable_SingleCorpse</compClass>
+          <fleshCorpsesOnly>true</fleshCorpsesOnly>
+          <nonDessicatedCorpsesOnly>true</nonDessicatedCorpsesOnly>
+        </li>
+        <li>
+          <compClass>CompTargetEffect_Resurrect</compClass>
+        </li>
+      </comps>
+ <recipeMaker>
+      <recipeUsers>
+        <li>ColaMachine</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+
+  </ThingDef>
+
+</Defs>
