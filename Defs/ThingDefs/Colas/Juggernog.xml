@@ -47,6 +47,12 @@
           <max>0.14</max>
         </overdoseSeverityOffset>
       </li>
+
+  <!--    <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(255,0,0,0)</glowColor>
+      </li>   -->
+
     </comps>
   </ThingDef>
 

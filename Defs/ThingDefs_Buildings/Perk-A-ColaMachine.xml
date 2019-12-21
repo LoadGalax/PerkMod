@@ -7,9 +7,9 @@
     <description>A heavy table for butchering dead creatures into pieces of raw meat.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>Things/Building/Production/TableButcher</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-    <!--  <drawSize>(3.5,1.5)</drawSize>  -->
+      <texPath>Things/Machines/Wunderfizz/DerWunderfizz</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+     <drawSize>(1.7,2)</drawSize>
   <!--    <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -19,9 +19,8 @@
     </graphicData>
     <castEdgeShadows>false</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <costStuffCount>75</costStuffCount>
      <costList>
-      <WoodLog>20</WoodLog>
+      <Steel>20</Steel>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
@@ -50,9 +49,18 @@
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
     <comps>
+
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>115</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(51,51,255,0)</glowColor>
+      </li>
+
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-          <li>ToolCabinet</li>
         </linkableFacilities>
       </li>
     </comps>

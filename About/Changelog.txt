@@ -1,0 +1,8 @@
+
+
+
+
+"0.7"
+* Fix bug with hediff and "Colas"
+* Add new texture for the Perk-A-ColaMachine
+* Add glow and power consumption to Perk-A-ColaMachine
