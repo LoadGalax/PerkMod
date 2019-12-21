@@ -7,12 +7,11 @@
     <stages>
       <li>
         <label></label>
-        <painFactor>0</painFactor>
         <socialFightChanceFactor>1.5</socialFightChanceFactor>
           <capMods>
             <li>
               <capacity>Moving</capacity>
-              <offset>50</offset>
+              <offset>0.5</offset>
             </li>
           </capMods>
         </li>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<WorkGiverDef>
+  <defName>Perk-A-ColaWorkgiver</defName>
+  <label>Take Bottle from</label>
+  <giverClass>WorkGiver_DoBill</giverClass>
+  <workType>Cooking</workType>
+  <priorityInType>90</priorityInType>
+  <fixedBillGiverDefs>
+    <li>ColaMachine</li>
+  </fixedBillGiverDefs>
+  <verb>butcher</verb>
+  <gerund>Taking Bottle from</gerund>
+  <requiredCapacities>
+    <li>Manipulation</li>
+  </requiredCapacities>
+  <prioritizeSustains>true</prioritizeSustains>
+</WorkGiverDef>
+
+</Defs>

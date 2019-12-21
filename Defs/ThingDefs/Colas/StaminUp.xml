@@ -25,9 +25,7 @@
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>HediffStaminUp</hediffDef>
-
           <severity>5.0</severity>
-          <severityIndices>
         </li>
       </outcomeDoers>
     </ingestible>

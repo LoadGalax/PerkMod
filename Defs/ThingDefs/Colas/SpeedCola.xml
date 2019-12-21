@@ -8,6 +8,7 @@
     <graphicData>
       <texPath>Things/Colas/SpeedCola</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
+        <drawSize>(1,2)</drawSize>
     </graphicData>
     <rotatable>false</rotatable>
     <statBases>

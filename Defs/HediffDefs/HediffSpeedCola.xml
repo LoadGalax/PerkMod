@@ -3,20 +3,20 @@
   <HediffDef>
     <defName>HediffSpeedCola</defName>
 
-    <soundCast>SpeedCola/SpeedColaSong</soundCast>
-    <soundInteract>SpeedCola/SpeedColaSong</soundInteract>
+  <!-- <soundCast>SpeedCola/SpeedColaSong</soundCast> -->
+  <!--  <soundInteract></soundInteract>  -->
 
     <label>SpeedCola</label>
     <stages>
       <li>
         <label></label>
 
-        <painFactor>0</painFactor>
+
         <socialFightChanceFactor>1.5</socialFightChanceFactor>
           <capMods>
             <li>
               <capacity>Manipulation</capacity>
-              <offset>50</offset>
+              <offset>0.5</offset>
             </li>
           </capMods>
         </li>
