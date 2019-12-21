@@ -8,8 +8,23 @@
     <graphicData>
       <texPath>Things/Colas/SpeedCola</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-        <drawSize>(1,2)</drawSize>
+        <drawSize>(0.5,1)</drawSize>
     </graphicData>
+<!--    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use resurrector mech serum</useLabel>
+        <useDuration>0</useDuration>
+      </li> 
+      <li Class="CompProperties_Targetable">
+        <compClass>CompTargetable_SingleCorpse</compClass>
+        <fleshCorpsesOnly>true</fleshCorpsesOnly>
+        <nonDessicatedCorpsesOnly>true</nonDessicatedCorpsesOnly>
+      </li>
+      <li>
+        <compClass>CompTargetEffect_Resurrect</compClass>
+      </li>
+    </comps> -->
     <rotatable>false</rotatable>
     <statBases>
       <WorkToMake>500</WorkToMake>

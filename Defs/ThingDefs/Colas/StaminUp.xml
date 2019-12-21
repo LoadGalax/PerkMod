@@ -8,6 +8,7 @@
     <graphicData>
       <texPath>Things/Colas/StaminUp</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>(0.5,1)</drawSize>
     </graphicData>
     <rotatable>false</rotatable>
     <statBases>

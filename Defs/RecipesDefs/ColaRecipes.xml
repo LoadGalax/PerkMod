@@ -3,16 +3,16 @@
 
   <RecipeDef>
     <defName>Make_SpeedCola</defName>
-    <label>MakeSpeedCola</label>
+    <label>Make A SpeedCola</label>
     <description>Make SpeedCola.</description>
     <jobString>Making SpeedCola.</jobString>
-    <workAmount>100</workAmount>
+    <workAmount>1</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_CookMeal</soundWorking>
+    <soundWorking></soundWorking>
     <allowMixingIngredients>true</allowMixingIngredients>
     <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-<soundInteract>SpeedCola/SpeedColaSong</soundInteract>
+
     <products>
       <SpeedCola>1</SpeedCola>
     </products>
@@ -38,5 +38,41 @@
     <workSkill>Cooking</workSkill>
   </RecipeDef>
 
+  <RecipeDef>
+    <defName>Make_Juggernog</defName>
+    <label>Make A Juggernog</label>
+    <description>Make Juggernog.</description>
+    <jobString>Making Juggernog.</jobString>
+    <workAmount>1</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking></soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+
+    <products>
+      <Juggernog>1</Juggernog>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Hay</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>Foods</li>
+      </categories>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+      <disallowedThingDefs>
+        <li>InsectJelly</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
 
 </Defs>

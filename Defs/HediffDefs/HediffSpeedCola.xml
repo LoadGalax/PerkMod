@@ -7,6 +7,8 @@
   <!--  <soundInteract></soundInteract>  -->
 
     <label>SpeedCola</label>
+
+
     <stages>
       <li>
         <label></label>
@@ -23,6 +25,8 @@
     </stages>
     <defaultLabelColor>(0.75, 0.75, 1.0)</defaultLabelColor>
     <comps>
+
+
       <!-- Disappears after eight to nine hours -->
       <li Class="HediffCompProperties_Disappears">
 
