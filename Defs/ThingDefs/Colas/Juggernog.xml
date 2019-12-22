@@ -33,10 +33,11 @@
     <recipeMaker>
          <recipeUsers>
            <li>ColaMachine</li>
+           <li>JuggernogMachine</li>
          </recipeUsers>
        </recipeMaker>
        <costList>
-         <Silver>10</Silver>
+         <Silver>2500</Silver>
        </costList>
     <comps>
       <li Class="CompProperties_Drug">

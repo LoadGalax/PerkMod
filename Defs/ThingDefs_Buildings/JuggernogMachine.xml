@@ -2,14 +2,14 @@
 <Defs>
 
   <ThingDef ParentName="BenchBase">
-    <defName>ColaMachine</defName>
-    <label>Wunderfizz</label>
-    <description>Der Wunderfizz machine! Ancient mysticism harnessed by our technology, which provides a means to aid our survival.</description>
+    <defName>JuggernogMachine</defName>
+    <label>Juggernog</label>
+    <description>Juggernog Machine</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>Things/Machines/Wunderfizz/DerWunderfizz</texPath>
+      <texPath>Things/Machines/Juggernog/Juggernog</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-     <drawSize>(1.7,2)</drawSize>
+     <drawSize>(1.5,2.7)</drawSize>
   <!--    <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -20,7 +20,7 @@
     <castEdgeShadows>false</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
      <costList>
-      <Steel>400</Steel>
+      <Steel>200</Steel>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
@@ -31,7 +31,7 @@
       <Flammability>1.0</Flammability>
       <Cleanliness>-15</Cleanliness>
     </statBases>
-    <size>(1,1)</size>
+    <size>(1,2)</size>
     <designationCategory>Production</designationCategory>
     <passability>PassThroughOnly</passability>
     <pathCost>60</pathCost>
@@ -56,7 +56,7 @@
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>3</glowRadius>
-        <glowColor>(51,51,255,0)</glowColor>
+        <glowColor>(255,0,0,0)</glowColor>
       </li>
 
       <li Class="CompProperties_AffectedByFacilities">

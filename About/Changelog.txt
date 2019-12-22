@@ -1,3 +1,17 @@
+0.8
+"New features"
+
+* Add new Juggernog Machine
+
+"Changes"
+
+* Name changed "Perk-A-ColaMachine" to "Wunderfizz"
+* Wunderfizz Cost modified From 20 "Steel" to 400 "Steel"
+* Juggernog Cost modified From 10 "Silver" to 2500 "Silver"
+* SpeedCola Cost modified From 10 "Silver" to 3000 "Silver"
+* QuickRevive Cost modified From 10 "Silver" to 500 "Silver"
+* StaminUp Cost modified From 10 "Silver" to 2000 "Silver"
+* Buffed all perks from 50% to 70%
 
 
 
