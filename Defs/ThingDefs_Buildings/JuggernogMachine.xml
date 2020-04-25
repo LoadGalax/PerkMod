@@ -38,10 +38,9 @@
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
-<!--   <recipes>
-      <li>MakeSpeedCola</li>
+<!--    <recipes>
       <li>MakeJuggernog</li>
-    </recipes>  -->
+    </recipes> -->
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>

@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <ModMetaData>
 	<name>Perk-A-Cola Mod</name>
 	<author>LoadGalax</author>
 	<supportedVersions>
     <li>1.0</li>
+	  <li>1.1</li>
   </supportedVersions>
-	<description>V0.8
+	<packageId>LoadGalax.PerkACola</packageId>
+	<description>V0.9
 &lt;size=24&gt;Features&lt;/size&gt;
 * Add Wunderfizz Machine to create Perk-A-Colas
-* Add Juggernog Machine 
+* Add Juggernog Machine
 * Add 4 Perk-A-Cola
 
-* Juggernog "add 50% to pain resistance"
-* SpeedCola "add 50% to manipulation"
-* StaminUp  "add 50% to speed movement"
+* Juggernog "add 70% to pain resistance"
+* SpeedCola "add 70% to manipulation"
+* StaminUp  "add 70% to speed movement"
 * QuickRevive "can revive like a serum"
 
 		</description>

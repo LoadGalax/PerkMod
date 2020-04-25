@@ -2,18 +2,11 @@
 <Defs>
   <HediffDef>
     <defName>HediffSpeedCola</defName>
-
-  <!-- <soundCast>SpeedCola/SpeedColaSong</soundCast> -->
-  <!--  <soundInteract></soundInteract>  -->
-
+    <description>Null</description>
     <label>SpeedCola</label>
-
-
     <stages>
       <li>
         <label></label>
-
-
         <socialFightChanceFactor>1.5</socialFightChanceFactor>
           <capMods>
             <li>

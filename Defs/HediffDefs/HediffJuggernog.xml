@@ -2,7 +2,7 @@
 <Defs>
   <HediffDef>
     <defName>HediffJuggernog</defName>
-
+    <description>Null</description>
     <label>Juggernog</label>
     <stages>
       <li>
@@ -10,7 +10,6 @@
         <painFactor>-0.7</painFactor>
         <socialFightChanceFactor>1.5</socialFightChanceFactor>
           <capMods>
-
           </capMods>
         </li>
     </stages>

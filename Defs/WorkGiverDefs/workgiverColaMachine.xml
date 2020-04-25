@@ -9,6 +9,7 @@
   <priorityInType>90</priorityInType>
   <fixedBillGiverDefs>
     <li>ColaMachine</li>
+    <li>JuggernogMachine</li>
   </fixedBillGiverDefs>
   <verb>butcher</verb>
   <gerund>Taking Bottle from</gerund>
