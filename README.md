@@ -16,6 +16,7 @@ Rimworld Mod
 * Updated to 1.1
 * The Juggernog Machine is working again
 * Fixed minors bugs
+
 ==== 0.8 ====
 
 "New features"
